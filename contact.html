@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | HaMiD</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">HaMiD</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="background: linear-gradient(to right, #00b09b, #96c93d);">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Feel free to send me a message!</p>
+    </div>
+  </section>
+
+  <section class="features" style="max-width: 600px; margin: 40px auto;">
+    <form action="https://formspree.io/f/mayvlbwe" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required placeholder="Your Name" />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="_replyto" required placeholder="Your Email" />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required placeholder="Your Message"></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 HaMiD. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
